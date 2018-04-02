@@ -1,0 +1,40 @@
+{
+  "name": "MusicPlayer",
+  "version": "1.0.0",
+  "description": "React, webpack, musicplayer",
+  "scripts": {
+    "start": "webpack-dev-server --watch --config ./webpack.config.js --mode development",
+    "build": "webpack --mode development ",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "@leovp17",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.4.3",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.1.0",
+    "jest": "^22.4.3",
+    "materialize-css": "^1.0.0-beta",
+    "node-sass": "^4.8.3",
+    "react-hot-loader": "^4.0.0",
+    "react-test-renderer": "^16.2.0",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
